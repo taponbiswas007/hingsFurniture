@@ -1,0 +1,111 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    background: #ffffff;
+}
+
+.fm-lato{
+    font-family: "Lato", sans-serif;
+}
+.fm-forum{
+font-family: "Forum", serif;
+}
+.fm-inter{
+font-family: "Inter", sans-serif;
+}
+.fm-didact{
+    font-family: "Didact Gothic", sans-serif;
+}
+.fm-noto{
+font-family: "Noto Serif", serif;
+}
+.bg-accentGreen{
+    background: #9CB31A;
+}
+button{
+    border: none;
+    background: none;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+.header{
+    background: #FFFFFF6B;
+    backdrop-filter: blur(4px)
+
+}
+.bg-blur{
+     background: #FFFFFF26;
+    backdrop-filter: blur(8px)
+
+}
+.fs-14{
+    font-size: 14px !important;
+}
+.logo{
+    height: 91px;
+    width: 144px;
+}
+.text-black-500{
+    color: #2D1817 !important;
+}
+.navlink{
+    font-family: Lato;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #ffffff;
+text-transform: uppercase;
+transition: all .3s ease;
+}
+.navlink:hover{
+    color: rgb(165, 165, 245);
+}
+.signInBtn{
+    font-family: Lato;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+color: #ffffff;
+}
+.signInBtn img{
+    height: 23px;
+    width: 23px;
+}
+.menubarbtn{
+    height: 40px;
+    width: 40px;
+}
+.hero_section{
+    background: url(../images/home_hero_bg.png) no-repeat 0 0 / 100% 100%;
+}
+@media (max-width: 992px) {
+    .navlink_area{
+       position: fixed;
+       display: none;
+    top: 123px;
+    left: 0;
+    width: 100%;
+         background: #FFFFFF6B;
+    backdrop-filter: blur(4px)
+    }
+}
