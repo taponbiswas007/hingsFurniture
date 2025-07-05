@@ -43,8 +43,23 @@ ul{
 }
 .header{
     background: #FFFFFF6B;
-    backdrop-filter: blur(4px)
+    backdrop-filter: blur(4px);
+    z-index: 1000;
 
+}
+.sticky{
+    background: #9CB31A !important;
+    backdrop-filter: blur(4px);
+    animation: headerIN 0.3s ease-in-out;
+
+}
+@keyframes headerIN {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
 .bg-blur{
      background: #FFFFFF26;
