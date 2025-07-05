@@ -128,7 +128,7 @@ color: #ffffff;
     top: 123px;
     left: 0;
     width: 100%;
-         background: #FFFFFF6B;
-    backdrop-filter: blur(4px)
+         background: #9CB31A;
+    z-index: 1000;
     }
 }
