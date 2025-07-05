@@ -69,6 +69,9 @@ ul{
 .fs-14{
     font-size: 14px !important;
 }
+.fs-20{
+    font-size: 20px !important;
+}
 .logo{
     height: 91px;
     width: 144px;
@@ -120,6 +123,18 @@ color: #ffffff;
     height: 207px;
     width: 2px;
     background: #9CB31A;
+}
+.backToTopBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    background: #9CB31A;
+    border-radius: 50%;
+    display: none;
+    z-index: 1000;
 }
 @media (max-width: 992px) {
     .navlink_area{
