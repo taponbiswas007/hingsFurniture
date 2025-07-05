@@ -1,130 +1,156 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     outline: 0;
 }
-body{
+
+body {
     background: #ffffff;
 }
 
-.fm-lato{
+.fm-lato {
     font-family: "Lato", sans-serif;
 }
-.fm-forum{
-font-family: "Forum", serif;
+
+.fm-forum {
+    font-family: "Forum", serif;
 }
-.fm-inter{
-font-family: "Inter", sans-serif;
+
+.fm-inter {
+    font-family: "Inter", sans-serif;
 }
-.fm-didact{
+
+.fm-didact {
     font-family: "Didact Gothic", sans-serif;
 }
-.fm-noto{
-font-family: "Noto Serif", serif;
+
+.fm-noto {
+    font-family: "Noto Serif", serif;
 }
-.bg-accentGreen{
+
+.bg-accentGreen {
     background: #9CB31A;
 }
-button{
+
+button {
     border: none;
     background: none;
     outline: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-img{
+
+img {
     width: 100%;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
-.header{
+
+.header {
     background: #FFFFFF6B;
     backdrop-filter: blur(4px);
     z-index: 1000;
 
 }
-.sticky{
+
+.sticky {
     background: #9CB31A !important;
     backdrop-filter: blur(4px);
     animation: headerIN 0.3s ease-in-out;
 
 }
+
 @keyframes headerIN {
     from {
         transform: translateY(-100%);
     }
+
     to {
         transform: translateY(0);
     }
 }
-.bg-blur{
-     background: #FFFFFF26;
-    backdrop-filter: blur(8px)
 
+.bg-blur {
+    background: #FFFFFF26;
+    backdrop-filter: blur(8px)
 }
-.fs-14{
+
+.fs-14 {
     font-size: 14px !important;
 }
-.fs-20{
+
+.fs-20 {
     font-size: 20px !important;
 }
-.logo{
+
+.logo {
     height: 91px;
     width: 144px;
 }
-.text-black-500{
+
+.text-black-500 {
     color: #2D1817 !important;
 }
-.navlink{
+
+.navlink {
     font-family: Lato;
-font-weight: 500;
-font-style: Medium;
-font-size: 14px;
-line-height: 22px;
-letter-spacing: 0px;
-vertical-align: middle;
-color: #ffffff;
-text-transform: uppercase;
-transition: all .3s ease;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all .3s ease;
 }
-.navlink:hover{
+
+.navlink:hover {
     color: rgb(165, 165, 245);
 }
-.signInBtn{
+
+.signInBtn {
     font-family: Lato;
-font-weight: 700;
-font-style: Bold;
-font-size: 14px;
-line-height: 22px;
-letter-spacing: 0px;
-text-align: center;
-vertical-align: middle;
-color: #ffffff;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
 }
-.signInBtn img{
+
+.signInBtn img {
     height: 23px;
     width: 23px;
 }
-.menubarbtn{
+
+.menubarbtn {
     height: 40px;
     width: 40px;
 }
-.hero_section{
+
+.hero_section {
     background: url(../images/home_hero_bg.png) no-repeat 0 0 / 100% 100%;
 }
-.contact_hero_section{
+
+.contact_hero_section {
     background: url(../images/contactUshero_bg.png) no-repeat 0 0 / 100% 100%;
 }
-.separatorBorder{
+
+.separatorBorder {
     height: 207px;
     width: 2px;
     background: #9CB31A;
 }
-.backToTopBtn{
+
+.backToTopBtn {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -136,38 +162,43 @@ color: #ffffff;
     display: none;
     z-index: 1000;
 }
-.preloader{
+
+.preloader {
     width: 100vw;
     height: 100vh;
     background: #ffffff;
     z-index: 9999;
     position: relative;
 }
+
 .logoBox {
     width: 144px;
     height: 91px;
     position: relative;
 }
+
 .logoBox img {
     width: 100%;
     height: 100%;
 }
-.spinner-border{
- border: 3px solid #9CB31A;
- border-top-color: transparent;
+
+.spinner-border {
+    border: 3px solid #9CB31A;
+    border-top-color: transparent;
     position: absolute;
     top: 0;
     right: 35px;
-    
+
 }
+
 @media (max-width: 992px) {
-    .navlink_area{
-       position: fixed;
-       display: none;
-    top: 123px;
-    left: 0;
-    width: 100%;
-         background: #9CB31A;
-    z-index: 1000;
+    .navlink_area {
+        position: fixed;
+        display: none;
+        top: 123px;
+        left: 0;
+        width: 100%;
+        background: #9CB31A;
+        z-index: 1000;
     }
 }
