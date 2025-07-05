@@ -113,6 +113,14 @@ color: #ffffff;
 .hero_section{
     background: url(../images/home_hero_bg.png) no-repeat 0 0 / 100% 100%;
 }
+.contact_hero_section{
+    background: url(../images/contactUshero_bg.png) no-repeat 0 0 / 100% 100%;
+}
+.separatorBorder{
+    height: 207px;
+    width: 2px;
+    background: #9CB31A;
+}
 @media (max-width: 992px) {
     .navlink_area{
        position: fixed;
