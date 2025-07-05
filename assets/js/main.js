@@ -36,4 +36,11 @@ $(document).ready(function () {
         }, 500);
         return false;
     });
+
+});
+$(document).ready(function () {
+    // Hide preloader after 2 seconds
+    setTimeout(function () {
+        $('.preloader').fadeOut('slow');
+    }, 2000);
 });

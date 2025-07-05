@@ -136,6 +136,30 @@ color: #ffffff;
     display: none;
     z-index: 1000;
 }
+.preloader{
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+    z-index: 9999;
+    position: relative;
+}
+.logoBox {
+    width: 144px;
+    height: 91px;
+    position: relative;
+}
+.logoBox img {
+    width: 100%;
+    height: 100%;
+}
+.spinner-border{
+ border: 3px solid #9CB31A;
+ border-top-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 35px;
+    
+}
 @media (max-width: 992px) {
     .navlink_area{
        position: fixed;
