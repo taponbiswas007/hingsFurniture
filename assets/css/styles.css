@@ -59,9 +59,9 @@ ul {
 }
 
 .sticky {
-    background: #9CB31A !important;
-    backdrop-filter: blur(4px);
+    background: #ffffff !important;
     animation: headerIN 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -73,6 +73,18 @@ ul {
     to {
         transform: translateY(0);
     }
+}
+
+.sticky .navlink {
+    color: #2D1817 !important;
+}
+
+.sticky .signInBtn {
+    color: #2D1817 !important;
+}
+
+.sticky .menubarbtn path {
+    stroke: #2D1817 !important;
 }
 
 .bg-blur {
@@ -131,6 +143,18 @@ ul {
     width: 23px;
 }
 
+.signInBtn .icon_b {
+    display: none;
+}
+
+.sticky .signInBtn .icon_b {
+    display: block !important;
+}
+
+.sticky .signInBtn .icon_w {
+    display: none !important;
+}
+
 .menubarbtn {
     height: 40px;
     width: 40px;
@@ -168,7 +192,9 @@ ul {
     height: 100vh;
     background: #ffffff;
     z-index: 9999;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .logoBox {
@@ -198,7 +224,20 @@ ul {
         top: 123px;
         left: 0;
         width: 100%;
-        background: #9CB31A;
+        background: #ffffff;
         z-index: 1000;
+        padding-top: 20px;
     }
+
+    .navlink_area .navlink {
+        color: #2D1817 !important;
+    }
+
+    .sticky .navlink_area {
+        background: #ffffff !important;
+        border-top: 1px solid #2D1817;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+
 }
