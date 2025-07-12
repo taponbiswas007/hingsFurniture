@@ -44,3 +44,21 @@ $(document).ready(function () {
         $('.preloader').fadeOut('slow');
     }, 2000);
 });
+
+$(document).ready(function () {
+    // All anchor links inside .termsconditionlistbutton
+    $(".termsconditionlistbutton a").on("click", function (e) {
+        e.preventDefault();
+
+        // Remove white space from the id selector (some of your IDs have trailing spaces)
+        let targetId = $(this).attr("href").trim(); // like "#introduction"
+
+        // Check if the target element exists
+        let target = $(targetId);
+        if (target.length) {
+            $('html, body').animate({
+                scrollTop: target.offset().top - 160 // Adjust offset as needed
+            }, 800); // 800ms animation
+        }
+    });
+});
