@@ -55,7 +55,7 @@ ul {
     background: #FFFFFF6B;
     backdrop-filter: blur(4px);
     z-index: 1000;
-    
+
 
 }
 
@@ -63,14 +63,15 @@ ul {
     background: #ffffff !important;
     animation: headerIN 0.3s ease-in-out;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid  #D1D1D6;
+    border-bottom: 1px solid #D1D1D6;
 
 }
+
 .lookbookheader {
     background: #ffffff !important;
     animation: headerIN 0.3s ease-in-out;
     box-shadow: none;
-    border-bottom: 1px solid  #D1D1D6;
+    border-bottom: 1px solid #D1D1D6;
 
 }
 
@@ -146,9 +147,11 @@ ul {
 .navlink:hover {
     color: rgb(3, 3, 88);
 }
+
 .lookbookheader .navlink:hover {
     color: rgb(3, 3, 88) !important;
 }
+
 .footerLinks a:hover {
     color: rgb(3, 3, 88) !important;
 }
@@ -181,6 +184,7 @@ ul {
 .sticky .signInBtn .icon_w {
     display: none !important;
 }
+
 .lookbookheader .signInBtn .icon_b {
     display: block !important;
 }
@@ -201,8 +205,13 @@ ul {
 .contact_hero_section {
     background: url(../images/contactUshero_bg.png) no-repeat 0 0 / 100% 100%;
 }
+
 .tradeshow_hero_section {
     background: url(../images/tradeshowherobg.png) no-repeat 0 0 / 100% 100%;
+}
+
+.common_herobg {
+    background: url(../images/commonherobg.png) no-repeat 0 0 / 100% 100%;
 }
 
 .separatorBorder {
@@ -254,6 +263,12 @@ ul {
 
 }
 
+@media (min-width: 768px) {
+    .w-md-50 {
+        width: 50% !important;
+    }
+}
+
 @media (max-width: 992px) {
     .navlink_area {
         position: fixed;
@@ -280,15 +295,51 @@ ul {
 }
 
 /* look book */
-.lookbookherotitle{
+.lookbookherotitle {
     font-size: 80px;
 }
-.borderline{
-    border-bottom: 1.2px solid  #AEAEB2;
+
+.borderline {
+    border-bottom: 1.2px solid #AEAEB2;
     padding-top: 22px;
 }
-@media (max-width: 768px) {
-    .lookbookherotitle{
-    font-size: 50px;
+
+.subscribearea {
+    border: 1px solid #D8D8D8;
+    max-width: 470px;
+    width: 100%;
+    margin: 0 auto;
 }
+
+.subscribearea button {
+    background: #9CB31A;
+    font-family: Lato;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 140px;
+    border: 1px solid #D8D8D8;
+
+}
+
+.subscribearea input {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #494949;
+}
+
+@media (max-width: 768px) {
+    .lookbookherotitle {
+        font-size: 50px;
+    }
+
+    .subscribearea button {
+        width: 100px;
+    }
 }
