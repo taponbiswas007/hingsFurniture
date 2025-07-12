@@ -33,6 +33,20 @@ body {
     background: #9CB31A;
 }
 
+.h-64 {
+    height: 64px !important;
+}
+
+.form-control {
+    border: 1px solid #D8D8D8 !important;
+    border-radius: 8px !important;
+}
+
+.form-select {
+    border: 1px solid #D8D8D8 !important;
+    border-radius: 8px !important;
+}
+
 button {
     border: none;
     background: none;
@@ -367,6 +381,97 @@ ul {
 .map_area img {
     height: 40px;
     width: 40px;
+}
+
+.createAccountform {
+    border: 1px solid #E5E5EA;
+    box-shadow: 0px 0px 1px 0px #0000005E;
+    border-radius: 19px;
+
+}
+
+.createAccountform label {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #494949;
+}
+
+.createAccountform input {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2D1817;
+}
+
+.createAccountform select {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2D1817;
+}
+
+/* Hide the default checkbox */
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create the custom checkbox */
+.custom-checkbox {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-checkbox .checkmark {
+    position: relative;
+    height: 16px;
+    width: 16px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #757575;
+    display: inline-block;
+}
+
+/* When the checkbox is checked, change the background */
+.custom-checkbox input:checked~.checkmark {
+    background-color: #2C2C2C;
+}
+
+/* Create the checkmark (hidden when not checked) */
+.custom-checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-checkbox input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark */
+.custom-checkbox .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 4px;
+    height: 8px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
 }
 
 @media (max-width: 768px) {
