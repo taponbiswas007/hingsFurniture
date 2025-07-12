@@ -334,6 +334,41 @@ ul {
     color: #494949;
 }
 
+.heronav .breadcrumb-item+.breadcrumb-item::before {
+    color: #ffffff !important;
+}
+
+.eventtimelineitems img {
+    height: 24px;
+    width: 24px;
+}
+
+.eventtimelineitems span {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #ffffff;
+
+}
+
+.map_area {
+    height: 260px;
+    width: 100%;
+    border-radius: 10px;
+    background: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map_area img {
+    height: 40px;
+    width: 40px;
+}
+
 @media (max-width: 768px) {
     .lookbookherotitle {
         font-size: 50px;
