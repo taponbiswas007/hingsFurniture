@@ -30,15 +30,23 @@ $(document).ready(function () {
     });
 
     // Scroll to top when button is clicked
-    $('.backToTopBtn').click(function () {
-        $('html, body').animate({
-            scrollTop: 0
-        }, 500, 'linear'); // smooth and same speed
-        return false;
-    });
+    // $('.backToTopBtn').click(function () {
+    //     $('html, body').animate({
+    //         scrollTop: 0
+    //     }, 500, 'linear'); // smooth and same speed
+    //     return false;
+    // });
 
 
 });
+document.querySelector('.backToTopBtn').addEventListener('click', function (e) {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // same-speed smooth scroll
+    });
+});
+
 $(document).ready(function () {
     // Hide preloader after 2 seconds
     setTimeout(function () {
