@@ -549,3 +549,9 @@ ul {
         font-size: 12px;
     }
 }
+
+@media (max-height: 610px) {
+    .hero_section {
+        padding-top: 150px;
+    }
+}
