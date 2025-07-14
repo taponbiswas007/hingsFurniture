@@ -33,9 +33,10 @@ $(document).ready(function () {
     $('.backToTopBtn').click(function () {
         $('html, body').animate({
             scrollTop: 0
-        }, 500);
+        }, 500, 'linear'); // smooth and same speed
         return false;
     });
+
 
 });
 $(document).ready(function () {
