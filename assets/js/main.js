@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $(".menubarbtn").click(function () {
-        $(".navlink_area").slideToggle();
+        $(".navlink_area").toggleClass('active');
     })
 })
 

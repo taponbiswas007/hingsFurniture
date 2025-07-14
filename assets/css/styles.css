@@ -159,15 +159,18 @@ ul {
 }
 
 .navlink:hover {
-    color: rgb(3, 3, 88);
+    color: #9CB31A;
+    -webkit-text-stroke: .1px #ffffff;
 }
 
 .lookbookheader .navlink:hover {
-    color: rgb(3, 3, 88) !important;
+    color: #9CB31A !important;
+    -webkit-text-stroke: .1px #ffffff;
 }
 
 .footerLinks a:hover {
-    color: rgb(3, 3, 88) !important;
+    color: #9CB31A !important;
+
 }
 
 .signInBtn {
@@ -213,19 +216,34 @@ ul {
 }
 
 .hero_section {
-    background: url(../images/home_hero_bg.png) no-repeat 0 0 / 100% 100%;
+    background: url(../images/home_hero_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 .contact_hero_section {
-    background: url(../images/contactUshero_bg.png) no-repeat 0 0 / 100% 100%;
+    background: url(../images/contactUshero_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 640px !important;
 }
 
 .tradeshow_hero_section {
-    background: url(../images/tradeshowherobg.png) no-repeat 0 0 / 100% 100%;
+    background: url(../images/tradeshowherobg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 640px !important;
 }
 
 .common_herobg {
-    background: url(../images/commonherobg.png) no-repeat 0 0 / 100% 100%;
+    background: url(../images/commonherobg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 640px !important;
 }
 
 .separatorBorder {
@@ -286,23 +304,48 @@ ul {
 @media (max-width: 992px) {
     .navlink_area {
         position: fixed;
-        display: none;
         top: 123px;
-        left: 0;
-        width: 100%;
+        left: -100%;
+        width: fit-content;
         background: #ffffff;
         z-index: 1000;
-        padding-top: 20px;
+        height: calc(100vh - 124px);
+        padding: 40px;
+        transition: all 0.3s ease-in;
+    }
+
+    .navlink_area.active {
+        left: 0;
     }
 
     .navlink_area .navlink {
         color: #2D1817 !important;
     }
 
+    .navlink_area ul li {
+        width: 100%;
+    }
+
     .sticky .navlink_area {
         background: #ffffff !important;
         border-top: 1px solid #2D1817;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .hero_section {
+        background-size: cover;
+    }
+
+    .contact_hero_section {
+        background-size: cover;
+    }
+
+    .tradeshow_hero_section {
+        background-size: cover;
+    }
+
+    .common_herobg {
+        background-size: cover;
     }
 
 
@@ -522,11 +565,22 @@ ul {
     color: #000000;
 
 }
-.termsconditionlistcard{
+
+.termsconditionlistcard {
     position: sticky;
     top: 150px;
 }
 
+.location_area {
+    position: sticky;
+    top: 127px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .contact_text {
+        font-size: 14px !important;
+    }
+}
 
 @media (max-width: 768px) {
     .lookbookherotitle {
@@ -535,6 +589,19 @@ ul {
 
     .subscribearea button {
         width: 100px;
+    }
+}
+
+@media (max-width: 610px) {
+    .footerLinks a {
+        font-size: 12px !important;
+    }
+
+    .copywrite p {
+        font-size: 12px !important;
+    }
+    .image_hight_auto{
+        height: auto !important;
     }
 }
 
@@ -554,4 +621,5 @@ ul {
     .hero_section {
         padding-top: 150px;
     }
+
 }
