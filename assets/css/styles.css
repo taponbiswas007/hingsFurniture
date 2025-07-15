@@ -144,7 +144,9 @@ ul {
 .text-black-500 {
     color: #2D1817 !important;
 }
-
+.navlink_area ul{
+    margin-bottom: 0;
+}
 .navlink {
     font-family: Lato;
     font-weight: 500;
