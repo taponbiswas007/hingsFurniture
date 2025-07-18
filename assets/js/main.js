@@ -7,7 +7,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $(window).scroll(function () {
         // Get the header element
-        var header = $(".header");
+        var header = $(".homeheader");
         // Get the scroll position
         var scroll = $(window).scrollTop();
 
