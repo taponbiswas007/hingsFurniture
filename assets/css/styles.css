@@ -102,14 +102,22 @@ ul {
 .sticky .navlink {
     color: #2D1817 !important;
 }
+.sticky .navlink:hover {
+    color: #9CB31A !important;
+}
 
 .sticky .signInBtn {
     color: #2D1817 !important;
 }
+.sticky .signInBtn:hover {
+    color: #9CB31A !important;
+}
+
 
 .sticky .menubarbtn path {
     stroke: #2D1817 !important;
 }
+
 
 .lookbookheader .navlink {
     color: #2D1817 !important;
@@ -162,12 +170,12 @@ ul {
 
 .navlink:hover {
     color: #9CB31A;
-    -webkit-text-stroke: .1px #ffffff;
+    
 }
 
 .lookbookheader .navlink:hover {
     color: #9CB31A !important;
-    -webkit-text-stroke: .1px #ffffff;
+    
 }
 
 .footerLinks a:hover {
@@ -348,6 +356,18 @@ ul {
 
     .common_herobg {
         background-size: cover;
+    }
+    .image_hight_auto_mb{
+        height: 300px !important;
+    }
+    .common_herobg{
+        height: 600px !important;
+    }
+    .tradeshow_hero_section{
+        height: 600px !important;
+    }
+    .ht-290{
+        height: 290px !important;
     }
 
 
@@ -605,6 +625,17 @@ ul {
     .image_hight_auto{
         height: auto !important;
     }
+}
+@media (max-width: 576px) {
+    .navlink_area {
+    padding-left: 0 !important;
+  }
+
+}
+@media (max-width: 575px) {
+    .navlink_area ul {
+    padding-left: 20px !important;
+  }
 }
 
 @media (max-width: 440px) {

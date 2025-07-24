@@ -1,8 +1,27 @@
+// $(document).ready(function () {
+//     $(".menubarbtn").click(function () {
+//         $(".navlink_area").toggleClass('active');
+//     })
+// })
 $(document).ready(function () {
-    $(".menubarbtn").click(function () {
+    $(".menubarbtn").click(function (e) {
+        e.stopPropagation(); // Prevent this click from bubbling up to document
         $(".navlink_area").toggleClass('active');
-    })
-})
+    });
+    
+    // Click handler for the document
+    $(document).click(function (e) {
+        // Check if click is outside both menu button and navlink area
+        if (!$(e.target).closest('.menubarbtn, .navlink_area').length) {
+            $(".navlink_area").removeClass('active');
+        }
+    });
+    
+    // Prevent clicks inside the menu from closing it
+    $(".navlink_area").click(function (e) {
+        e.stopPropagation();
+    });
+});
 
 $(document).ready(function () {
     $(window).scroll(function () {
