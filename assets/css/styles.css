@@ -575,7 +575,7 @@ ul {
 
 .location_area {
     position: sticky;
-    top: 127px;
+    top: 5px;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
