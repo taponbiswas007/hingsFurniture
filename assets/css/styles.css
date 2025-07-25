@@ -237,7 +237,7 @@ ul {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    height: 640px !important;
+    height: 70vh !important;
 }
 
 .tradeshow_hero_section {
@@ -245,7 +245,7 @@ ul {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    height: 640px !important;
+    height: 70vh !important;
 }
 
 .common_herobg {
@@ -253,7 +253,7 @@ ul {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    height: 640px !important;
+    height: 70vh !important;
 }
 
 .separatorBorder {
@@ -315,7 +315,7 @@ ul {
     .navlink_area {
         position: fixed;
         top: 123px;
-        left: -100%;
+        right: -100%;
         width: fit-content;
         background: #ffffff;
         z-index: 1000;
@@ -325,13 +325,16 @@ ul {
     }
 
     .navlink_area.active {
-        left: 0;
+        right: 0;
     }
 
     .navlink_area .navlink {
         color: #2D1817 !important;
     }
 
+     .navlink_area ul{
+        padding-left: 0;
+     }
     .navlink_area ul li {
         width: 100%;
     }
