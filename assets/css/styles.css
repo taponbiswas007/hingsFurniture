@@ -173,6 +173,7 @@ ul {
     
 }
 
+
 .lookbookheader .navlink:hover {
     color: #9CB31A !important;
     
@@ -211,7 +212,10 @@ ul {
 .sticky .signInBtn .icon_w {
     display: none !important;
 }
-
+.signInBtn:hover {
+    color: #9CB31A;
+    
+}
 .lookbookheader .signInBtn .icon_b {
     display: block !important;
 }
@@ -219,7 +223,10 @@ ul {
 .lookbookheader .signInBtn .icon_w {
     display: none !important;
 }
-
+.lookbookheader .signInBtn:hover span {
+    color: #9CB31A !important;
+    
+}
 .menubarbtn {
     height: 40px;
     width: 40px;
