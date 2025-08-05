@@ -323,17 +323,18 @@ ul {
     .navlink_area {
         position: fixed;
         top: 123px;
-        right: -100%;
+        right:0;
         width: fit-content;
         background: #ffffff;
         z-index: 1000;
         height: calc(100vh - 124px);
         padding: 40px;
         transition: all 0.3s ease-in;
+        display: none;
     }
 
     .navlink_area.active {
-        right: 0;
+        display: block;
     }
 
     .navlink_area .navlink {
