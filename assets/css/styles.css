@@ -47,6 +47,7 @@ body {
     border-radius: 8px !important;
 }
 
+
 button {
     border: none;
     background: none;
@@ -664,5 +665,8 @@ ul {
     .hero_section {
         padding-top: 150px;
     }
+    .home_hero_section{
+    height: 630px !important;
+}
 
 }
