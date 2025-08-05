@@ -73,7 +73,9 @@ ul {
 
 
 }
-
+.hero_title{
+    padding-top: 250px;
+}
 .sticky {
     background: #ffffff !important;
     animation: headerIN 0.3s ease-in-out;
@@ -682,7 +684,9 @@ ul {
     .hero_section {
         padding-top: 150px;
     }
-
+    .hero_title{
+    padding-top: 200px;
+}
     .home_hero_section {
         height: 630px !important;
     }
@@ -698,5 +702,22 @@ ul {
     .ht-290{
         height: 200px !important;
     }
+    .card_image{
+        position: relative;
+        height: 200px !important;
+        overflow: hidden;
+    }
+      .card_image img{
+        height: 100% !important;
+        width: 100%;
+        object-fit: cover;  
+      }
+      .image_hight_auto{
+        height: 220px !important;
+      }
+      .elevated_space_image_box {
+        height: 220px !important;
+        overflow: hidden;
+      }
 
 }
