@@ -690,18 +690,18 @@ ul {
     .home_hero_section {
         height: 630px !important;
     }
-      .image_hight_auto_mb{
+      /* .image_hight_auto_mb{
         height: 200px !important;
-    }
+    } */
     .common_herobg{
         height: 400px !important;
     }
     .tradeshow_hero_section{
         height: 400px !important;
     }
-    .ht-290{
+    /* .ht-290{
         height: 200px !important;
-    }
+    } */
     .card_image{
         position: relative;
         height: 200px !important;
@@ -712,12 +712,12 @@ ul {
         width: 100%;
         object-fit: cover;  
       }
-      .image_hight_auto{
+      /* .image_hight_auto{
         height: 220px !important;
       }
       .elevated_space_image_box {
         height: 220px !important;
         overflow: hidden;
-      }
+      } */
 
 }
