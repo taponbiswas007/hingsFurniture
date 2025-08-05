@@ -103,6 +103,7 @@ ul {
 .sticky .navlink {
     color: #2D1817 !important;
 }
+
 .sticky .navlink:hover {
     color: #9CB31A !important;
 }
@@ -110,6 +111,7 @@ ul {
 .sticky .signInBtn {
     color: #2D1817 !important;
 }
+
 .sticky .signInBtn:hover {
     color: #9CB31A !important;
 }
@@ -153,9 +155,11 @@ ul {
 .text-black-500 {
     color: #2D1817 !important;
 }
-.navlink_area ul{
+
+.navlink_area ul {
     margin-bottom: 0;
 }
+
 .navlink {
     font-family: Lato;
     font-weight: 500;
@@ -171,13 +175,13 @@ ul {
 
 .navlink:hover {
     color: #9CB31A;
-    
+
 }
 
 
 .lookbookheader .navlink:hover {
     color: #9CB31A !important;
-    
+
 }
 
 .footerLinks a:hover {
@@ -213,10 +217,12 @@ ul {
 .sticky .signInBtn .icon_w {
     display: none !important;
 }
+
 .signInBtn:hover {
     color: #9CB31A;
-    
+
 }
+
 .lookbookheader .signInBtn .icon_b {
     display: block !important;
 }
@@ -224,10 +230,12 @@ ul {
 .lookbookheader .signInBtn .icon_w {
     display: none !important;
 }
+
 .lookbookheader .signInBtn:hover span {
     color: #9CB31A !important;
-    
+
 }
+
 .menubarbtn {
     height: 40px;
     width: 40px;
@@ -323,7 +331,7 @@ ul {
     .navlink_area {
         position: fixed;
         top: 123px;
-        right:0;
+        right: 0;
         width: fit-content;
         background: #ffffff;
         z-index: 1000;
@@ -341,9 +349,10 @@ ul {
         color: #2D1817 !important;
     }
 
-     .navlink_area ul{
+    .navlink_area ul {
         padding-left: 0;
-     }
+    }
+
     .navlink_area ul li {
         width: 100%;
     }
@@ -369,16 +378,20 @@ ul {
     .common_herobg {
         background-size: cover;
     }
-    .image_hight_auto_mb{
+
+    .image_hight_auto_mb {
         height: 300px !important;
     }
-    .common_herobg{
+
+    .common_herobg {
         height: 600px !important;
     }
-    .tradeshow_hero_section{
+
+    .tradeshow_hero_section {
         height: 600px !important;
     }
-    .ht-290{
+
+    .ht-290 {
         height: 290px !important;
     }
 
@@ -634,20 +647,23 @@ ul {
     .copywrite p {
         font-size: 12px !important;
     }
-    .image_hight_auto{
+
+    .image_hight_auto {
         height: auto !important;
     }
 }
+
 @media (max-width: 576px) {
     .navlink_area {
-    padding-left: 0 !important;
-  }
+        padding-left: 0 !important;
+    }
 
 }
+
 @media (max-width: 575px) {
     .navlink_area ul {
-    padding-left: 20px !important;
-  }
+        padding-left: 20px !important;
+    }
 }
 
 @media (max-width: 440px) {
@@ -666,8 +682,21 @@ ul {
     .hero_section {
         padding-top: 150px;
     }
-    .home_hero_section{
-    height: 630px !important;
-}
+
+    .home_hero_section {
+        height: 630px !important;
+    }
+      .image_hight_auto_mb{
+        height: 200px !important;
+    }
+    .common_herobg{
+        height: 400px !important;
+    }
+    .tradeshow_hero_section{
+        height: 400px !important;
+    }
+    .ht-290{
+        height: 200px !important;
+    }
 
 }
