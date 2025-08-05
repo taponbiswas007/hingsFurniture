@@ -341,6 +341,7 @@ ul {
         padding: 40px;
         transition: all 0.3s ease-in;
         display: none;
+        overflow: auto;
     }
 
     .navlink_area.active {
